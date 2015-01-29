@@ -1,7 +1,7 @@
 useradd sam
-mkdir /home/sam/.ssh
-chown sam -r /home/sam
-chgrp sam -r /home/sam
+mkdir -p /home/sam/.ssh
+chown -R sam /home/sam
+chgrp -R sam /home/sam
 chsh /bin/bash sam
 
 adduser sam sudo
