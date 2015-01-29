@@ -6,4 +6,5 @@ chsh -s /bin/bash sam
 
 adduser sam sudo
 
-curl -vs https://raw.githubusercontent.com/thecodeite/bash/master/prowfish/id_rsa.pub >> /home/sam/.ssh/authorized_keys
+curl -vs https://raw.githubusercontent.com/thecodeite/bash/master/prowfish/id_rsa.pub > /home/sam/.ssh/authorized_keys
+passwd sam
