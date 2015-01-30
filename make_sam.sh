@@ -1,3 +1,6 @@
+#!/bind/bash
+# File linked to from http://tinyurl.com/makesam
+
 useradd sam
 mkdir -p /home/sam/.ssh
 chown -R sam /home/sam
