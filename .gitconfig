@@ -1,0 +1,34 @@
+[user]
+	name = Sam Plews
+	email = the@codeite.com 
+[color]
+	ui = auto
+	interative = auto
+[alias]
+	ch = checkout
+	cm = commit 
+	st = status -sb
+	br = branch
+	mt = mergetool
+	lg = log --graph --pretty=tformat:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit -10 
+	phead = push origin head
+  r-c = rebase --continue
+  r-a = rebase --abort
+[log]
+	date = local
+[core]
+	filemode = false
+	autocrlf = false
+	pager = cat
+	excludesfile = ~/.gitignore_global
+[push]
+	default = current
+[rebase]
+	autosquash = true
+[include]
+	path = ~/.gitconfig.host-specific
+	path = ~/.github
+[branch]
+  autosetuprebase = always
+[branch "master"]
+  rebase = true
